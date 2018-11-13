@@ -108,7 +108,7 @@ void draw() {
   ellipse(x3,y3,50,50);
   ellipse(x4,y4,50,50);}
   fill(255);
-  System.out.println(int(50*cos(w1-PI/2))+" "+int(50*sin(w1-PI/2)));
+  //System.out.println(int(50*cos(w1-PI/2))+" "+int(50*sin(w1-PI/2)));
   line(x1+int(50*cos(w1-PI/2)),y1-int(50*sin(w1-PI/2)),x3+int(50*cos(w1-PI/2)),y3-int(50*sin(w1-PI/2)));
   line(x1+int(50*cos(w1+PI/2)),y1-int(50*sin(w1+PI/2)),x3+int(50*cos(w1+PI/2)),y3-int(50*sin(w1+PI/2)));
   line(x2+int(50*cos(w2-PI/2)),y2-int(50*sin(w2-PI/2)),x4+int(50*cos(w2-PI/2)),y4-int(50*sin(w2-PI/2)));
