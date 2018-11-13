@@ -131,9 +131,9 @@ void draw() {
   new_time= millis();
   if((new_time-old_time)>50){
   if(s1!=old_s){
-    val_write[0] = s1;
+    val_write[2] = s1;
     val_write[1] = s2;
-    val_write[2] = byte(255);
+    val_write[0] = byte(255);
     bt.broadcast(val_write);
     old_s = s1;}
     old_time=new_time;
